@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper با جاوااسکریپت</title>
+    <!-- لینک به Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- لینک به فایل CSS شخصی -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- کانتینر Swiper -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          
+       
+         
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    <!-- اسکریپت Swiper.js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- اسکریپت اصلی -->
+    <script src="main.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 3,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
+
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+      return direction;
+    }
+  </script>
+</body>
+</html>
