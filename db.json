@@ -1,0 +1,14 @@
+{
+    "menu":[
+    {"id":1,"titel":"home" },
+    {"id":2,"titel":"product" },
+    {"id":3,"titel":"call" },
+    {"id":4,"titel":"atherproduct" }
+],
+"product":[
+{"id":1,"titel":"laptop","price":"1000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/f9d556a68cc4a507cc80981935cf68ae2e3d7711_1712491233.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"},
+{"id":2,"titel":"airpad","price":"2000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/4097296c1f8c07260101b63df02d81c5ffa098b5_1642710560.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"},
+{"id":3,"titel":"appelewhach","price":"3000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/355d428ea37b7bc2c559415e11c437d18b7b2a64_1730033310.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"},
+{"id":4,"titel":"iphone","price":"4000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/c0e079b958167bd0fdef1f0e12440e7fed29b1bd_1727853611.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"}
+
+]}
