@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <div id="menu"
+            class="absolute top-0 left-1/2 transform -translate-x-1/2 text-white text-center p-4 w-full transition-all duration-1000 ease-in-out">
+            <!--  startmenu -->
+
+            <div class="menu bg-none">
+                <div class="navbar ">
+                    <div class="navbar-start">
+                        <div class="dropdown bg-black rounded-[10px]">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16 " />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow text-black font-bold">
+                                <li><a href="./index.html">خانه</a></li>
+                                <li><a href="./Recipe.html">دستور پخت</a></li>
+                                <li><a href="./addRecipe.html">افزودن دستور پخت</a></li>
+                                <li><a href="./blog.html">وبلاگ</a></li>
+                                <li><a href="./aboutus.html">درباره ما</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost  text-black "> <img src="./img/food-restaurant-icon.png" alt=""
+                                width="20px"> <span class="text-red-700">بی نقص</span>دستور پخت</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1  text-black font-bold">
+                            <li><a href="./index.html">خانه</a></li>
+                            <li><a href="./Recipe.html">دستور پخت</a></li>
+                            <li><a href="./addRecipe.html">افزودن دستور پخت</a></li>
+                            <li><a href="./blog.html">وبلاگ</a></li>
+                            <li><a href="./aboutus.html">درباره ما</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end flex space-x-4">
+                        <a class="btn text-black bg-yellow-50 border-none" href="./singup.html">ورود</a>
+                        <a class="btn  text-white  bg-orange-700 border-none" href="./singup.html">ثبت نام</a>
+                    </div>
+
+                </div>
+            </div>
+<!--  endmenu -->
+<!-- stsrttop -->
+<div class="border-t-2 border-b-2 border-gray-200 w-full">
+<h2 class="text-black text-left p-5"> درست کردن دستور پخت جدید</h2>
+</div>
+
+<!-- endtop -->
+ <!-- start center -->
+<div class="justify-center w-[50%] m-auto mt-4">
+<div class="text-black">
+<h3 class="text-left">عنوان دستور غذا:</h3>
+</div>
+<div class="border-4 border-red-700 mt-2 rounded-[5px]">
+<h4 class="text-black  text-left p-3">لوبیا سیاه ونون</h4>
+</div>
+<div class="text-black mt-8">
+    <h3 class="text-left">عنوان دستور غذا:</h3>
+    </div>
+<div class="pic relative w-[700px] h-[500px] m-auto mt-5" >
+<img src="./img/ec033b562217ae69403d84987a898636.jpg" alt="" class="w-full h-full object-cover rounded-[5px]">
+<div class="absolute inset-0 flex items-start justify-start mt-3 ml-3">
+<h4 class="text-red-950 bg-white border-2 border-red-900 p-1 rounded-[5px]">به عنوان پوشش تنظیم کن</h4>
+<h4 class="text-red-950 bg-white border-2 border-red-900 p-1 rounded-[5px] ml-2">تغییر عکس</h4>
+<div class="  bg-white border-2 border-red-900 p-1 rounded-[5px]  absolute bottom-0 left-0  mb-3">
+    <img width="20" height="20" src="https://img.icons8.com/parakeet-line/48/FA5252/trash.png" alt="trash"/></div>
+</div>
+</div>
+
+<div class="choose  mt-4 ml-5 flex">
+<div class="bg-slate-100 w-[200px] h-[200px] relative flex flex-col items-center justify-center   rounded-[5px] border-2 border-gray-500 ">
+    <img width="35" height="35" src="https://img.icons8.com/ios/50/FA5252/camera--v3.png" alt="camera--v3" class=" "/>
+   
+    <span class="text-gray-600">اضافه کردن عکس</span>
+</div>
+<div class="bg-slate-100 w-[200px] h-[200px]   rounded-[5px] border-4 border-red-800  relative ml-5">
+       
+    <img src="./img/ec033b562217ae69403d84987a898636.jpg" alt="" class="w-full h-full object-cover rounded-[5px]">
+    <div class="absolute inset-0 flex items-start justify-start ">
+        <h4 class="text-white bg-red-700 border-2 border-red-900 p-1 rounded-[3px] "> کاور</h4>
+    </div>
+</div>
+</div>
+<!-- startinput -->
+<div class="mt-10">
+<div class="text-black text-left">
+<h2>توضیحات:</h2>
+</div>
+<div class="text-black mt-4">
+    <input type="text" placeholder=" دستور پخت خود را معرفی کنید" class="input input-bordered w-full max-w-lg" />
+    
+    <div class="text-gray-300 text-right mr-6">
+    <span class="mr-20" >0/100</span>
+</div>
+</div>
+</div>
+
+<!-- endinput -->
+ <!-- startinput2 -->
+ <div class="mt-10">
+    <div class="text-black text-left">
+    <h2>مواد تشکیل دهنده:</h2>
+    </div>
+    <div class="text-black mt-4">
+        <input type="text" placeholder=" دستور پخت خود را معرفی کنید" class="input input-bordered w-full max-w-lg" />
+        
+    </div>
+    <div class="text-black mt-4">
+        <input type="text" placeholder=" دستور پخت خود را معرفی کنید" class="input input-bordered w-full max-w-lg" />
+        
+    </div>
+    <div class="text-black mt-4">
+        <input type="text" placeholder="  مواد استفاده کنید" class="input input-bordered w-full max-w-lg" />
+        
+        <div class="text-red-800 text-left mr-6">
+        <span class="ml-11 " >+سربرگ</span>
+    </div>
+    </div>
+    </div>
+<!-- endinput2 -->
+
+
+<!-- start photo -->
+<div class="photo ml-5 mt-5">
+    <div class="text-black text-left">
+        <h2>مواد تشکیل دهنده:</h2><span class="text-gray-400">top to adit</span>
+        
+        </div>
+<div class=" text-black text-left">
+<h2>step1</h2>
+</div>
+<div class="flex">
+<div class=" w-[100px] h-[70px] bg-slate-200 relative flex flex-col items-center justify-center   rounded-[5px] " >
+    <img width="30" height="30" src="https://img.icons8.com/ios/50/camera--v4.png" alt="camera--v4"/>
+</div>
+<div class="p-tag text-black text-left ml-4 w-[500px] ">
+<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرار گیرد.</p>
+</div>
+</div>
+<div class=" text-black text-left">
+    <h2>step1</h2>
+    </div>
+    <div class="flex">
+    <div class=" w-[100px] h-[70px] bg-slate-200 relative flex flex-col items-center justify-center   rounded-[5px] " >
+        <img width="30" height="30" src="https://img.icons8.com/ios/50/camera--v4.png" alt="camera--v4"/>
+    </div>
+    <div class="p-tag text-black text-left w-[500px] justify-center ml-4">
+        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+    </div>
+    </div>
+    <div class="text-black mt-4">
+        <input type="text" placeholder=" دستور پخت خود را معرفی کنید" class="input input-bordered w-full max-w-lg" />
+        
+        <div class="text-red-800 text-left ">
+        <span class="ml-11 " >+سربرگ</span>
+    </div>
+    </div>
+</div>
+<!-- end photo -->
+<!-- start input3 -->
+
+<div class="mt-10 ">
+    <div class="text-black text-left">
+    <h2>خدمات:</h2>
+    </div>
+    <div class="text-black mt-4">
+        <input type="text" placeholder=" #" class="input input-bordered w-full max-w-lg" />
+        
+        <div class="text-gray-300 text-left ml-6">
+        <span class="mr-20" >چقدر طول میکشه تا پخته شود</span>
+    </div>
+    </div>
+    <div class="text-black text-left ">
+        <h2>زمان پخت:</h2>
+        </div>
+        <div class="flex ">
+
+        <div class="text-black mt-4 ">
+            <input type="text" placeholder=" 0ساعت" class="input input-bordered w-[200px] "  />
+            
+            <div class="text-gray-300 text-left ml-6">
+            <span class="mr-20" >چقدر طول میکشه تا پخته شود</span>
+        </div>
+        </div>
+        <div class="text-black mt-4 ">
+            <input type="text" placeholder="0دقیقه" class="input input-bordered w-[200px]" />
+        </div>
+        
+</div>
+<div class="text-black text-left  mt-7 ">
+    <h2>زمان اماده سازی:</h2>
+    </div>
+    <div class="flex  ml-12">
+
+    <div class="text-black mt-4 ">
+        <input type="text" placeholder=" 0ساعت" class="input input-bordered w-[200px]" />
+        
+        <div class="text-gray-300 text-left ml-6">
+        <span class="mr-20" >  طرز تهیه دستور پخت </span>
+    </div>
+    </div>
+    <div class="text-black mt-4 ">
+        <input type="text" placeholder="0دقیقه" class="input input-bordered w-[200px]" />
+    </div>
+    
+</div>
+
+    </div>
+<!-- end input3 -->
+
+<!-- پارت اخر -->
+<div class="text-black text-left  mt-10  ">
+    <h2> آشپزی :</h2>
+    </div>
+    <div class=" text-black w-[200px] mt-10">
+    <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+        <div class="collapse-title textarea-xs font-medium">   ایتالیالی </div>
+        <div class="collapse-content">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+        </div>
+      </div>
+</div>
+<div class="text-black text-left ml-1 mt-7  ">
+    <h2>  مجموعه:</h2>
+    </div>
+    <div class=" text-black w-[200px] mt-10 ">
+    <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+        <div class="collapse-title textarea-xs font-medium">    یک مجموعه انتخاب شد</div>
+        <div class="collapse-content">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+        </div>
+      </div>
+</div>
+</div>
+ <!-- end center -->
+
+
+
+<!-- start part9 -->
+<footer class="bg-gray-100 py-6 mt-10">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div class="text-left pl-8 md:pl-10">
+        <h2 class="text-xl font-bold text-gray-800">دستور پخت  <span class="text-red-500">بی نقص</span></h2>
+        <p class="mt-2 text-gray-600 text-sm">
+          هدف از لورم ایپسوم ایجاد یک بلوک متن طبیعی است (جمله، پاراگراف، صفحه و غیره) که از طرح‌بندی پرت و حواس‌پرتی نداشته باشد.
+        </p>
+      </div>
+      <!-- لینک‌های سریع -->
+      <div class="text-left">
+        <h3 class="text-gray-800 font-semibold">لینک‌های سریع</h3>
+        <ul class="mt-2 space-y-2 text-sm text-gray-600">
+          <li><a href="#" class="hover:text-red-500">خانه</a></li>
+          <li><a href="#" class="hover:text-red-500">دستورالعمل‌ها</a></li>
+          <li><a href="#" class="hover:text-red-500">وبلاگ</a></li>
+          <li><a href="#" class="hover:text-red-500">درباره ما</a></li>
+          <li><a href="#" class="hover:text-red-500">سیاست حفظ حریم خصوصی</a></li>
+          <li><a href="#" class="hover:text-red-500">سوالات متداول</a></li> 
+        </ul>
+      </div>
+      <div class="text-left">
+        <h3 class="text-gray-800 font-semibold">لینک‌های سریع</h3>
+        <ul class="mt-2 space-y-2 text-sm text-gray-600">
+          <li><a href="#" class="hover:text-red-500">خانه</a></li>
+          <li><a href="#" class="hover:text-red-500">دستورالعمل‌ها</a></li>
+          <li><a href="#" class="hover:text-red-500">وبلاگ</a></li>
+          <li><a href="#" class="hover:text-red-500">درباره ما</a></li>
+         
+        </ul>
+      </div>
+      
+      <!-- خبرنامه -->
+      <div>
+        <h3 class="text-gray-800 font-semibold">خبرنامه</h3>
+        <p class="mt-2 text-sm text-gray-600">برای دریافت نکات بیشتر و رایگان، در خبرنامه ما عضو شوید.</p>
+        <div class="mt-3 flex flex-col text-black">
+          <input  type="email" placeholder="ایمیل خود را وارد کنید"
+            class="w-full border border-gray-300 rounded-t-md px-4 py-2 text-sm focus:outline-none"/>
+          <button class="bg-red-500 text-white px-4 py-2 rounded-b-md hover:bg-red-600 mt-2">اشتراک‌گذاری</button>
+        </div>
+      </div>
+    </div>
+    <!-- پایین فوتر -->
+    <div class="border-t mt-6 pt-4 text-left text-gray-600 text-sm">
+      <div class="flex justify-between items-center">
+        <p>© 2023 Recipe.com, تمامی حقوق محفوظ است.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-black hover:text-red-500"><i class="fab fa-facebook"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/pinterest--v1.png" alt="pinterest--v1"/></i></a>
+          <a href="#" class="hover:text-red-500"><i class="fab fa-twitter"><img width="24" height="24" src="https://img.icons8.com/material-two-tone/24/twitterx--v2.png" alt="twitterx--v2"/></i></a>
+          <a href="#" class="hover:text-red-500"><i class="fab fa-instagram"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/facebook-f.png" alt="facebook-f"/></i></a>
+          <a href="#" class="hover:text-red-500"><i class="fab fa-pinterest"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/instagram-new--v1.png" alt="instagram-new--v1"/></i></a>
+          <a href="#" class="hover:text-red-500"><i class="fab fa-pinterest"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/apple-music.png" alt="apple-music"/></i></a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- end part9 --> 
+</body>
+</html>

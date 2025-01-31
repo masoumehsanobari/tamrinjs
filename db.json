@@ -1,14 +1,32 @@
 {
-    "menu":[
-    {"id":1,"titel":"home" },
-    {"id":2,"titel":"product" },
-    {"id":3,"titel":"call" },
-    {"id":4,"titel":"atherproduct" }
-],
-"product":[
-{"id":1,"titel":"laptop","price":"1000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/f9d556a68cc4a507cc80981935cf68ae2e3d7711_1712491233.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"},
-{"id":2,"titel":"airpad","price":"2000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/4097296c1f8c07260101b63df02d81c5ffa098b5_1642710560.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"},
-{"id":3,"titel":"appelewhach","price":"3000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/355d428ea37b7bc2c559415e11c437d18b7b2a64_1730033310.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"},
-{"id":4,"titel":"iphone","price":"4000$","imgsrc":"https://dkstatics-public.digikala.com/digikala-products/c0e079b958167bd0fdef1f0e12440e7fed29b1bd_1727853611.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"}
+    "food":[
+        { "imgsrc":"./img/Untitled-3.png","star":"","titel":" چیکن چیپس","imgsrc2":"./img/woman.png","span":"zahra mahrabi","nuber":"1,255" },
+        { "imgsrc":"./img/Untitled-egg.png","star":"","titel":" نون تست به همراه تخم مرغ وگوجه ","imgsrc2":"./img/woman.png","span":"zahra mahrabi","nuber":"3,265" },
+        { "imgsrc":"./img/Untitled-6.png","star":"","titel":" رول آپ ژامبون تخم مرغ واسفنج  ","imgsrc2":"./img/woman.png","span":"zahra mahrabi","nuber":"4,205" },
+        { "imgsrc":"./img/Untitled-55.png","star":"","titel":"  بسته بندی مزرعه مرغ","imgsrc2":"./img/woman.png","span":"zahra mahrabi","nuber":"5,255" },
+        { "imgsrc":"./img/Untitled-56.png","star":"","titel":" سالاد ماهی تن مکس","imgsrc2":"./img/woman.png","span":"zahra mahrabi","nuber":"6,255" },
+        { "imgsrc":"./img/Untitled-57.png","star":"","titel":" پنکیک توت فرنگی و گیلاس ","imgsrc2":"./img/woman.png","span":"zahra mahrabi","nuber":"5,255" }
 
-]}
+    ],
+    "food2":[
+        { "imgsrc3":"./img/Untitled-58.png","star1":"","titel1":" لقمه الهه سبز ","imgsrc4":"./img/woman.png","span2":"zahra mahrabi","nuber2":"1,400" }, 
+        { "imgsrc3":"./img/Untitled-59.png","star1":"","titel1":"   اسفناج استند و وات ","imgsrc4":"./img/woman.png","span2":"zahra mahrabi","nuber2":"6,526" }, 
+        { "imgsrc3":"./img/Untitled-60.png","star1":"","titel1":"  پیتزا مرغ و گوشت  ","imgsrc4":"./img/woman.png","span2":"zahra mahrabi","nuber2":"5,824" }, 
+        { "imgsrc3":"./img/Untitled-61.png","star1":"","titel1":" دسر گیلاس بری اسموت ","imgsrc4":"./img/woman.png","span2":"zahra mahrabi","nuber2":"1,255" }, 
+        { "imgsrc3":"./img/Untitled-62.png","star1":"","titel1":"اسموتی سبز","imgsrc4":"./img/woman.png","span2":"zahra mahrabi","nuber2":"4,255" }, 
+        { "imgsrc3":"./img/Untitled-58.png","star1":"","titel1":"ماهی قرمز کبابی","imgsrc4":"./img/woman.png","span2":"zahra mahrabi","nuber2":"9,295" }
+
+    ],
+    "food3":[
+        {"imgsrc6":"./img/063c3d6dd3fc4b8f62c2462c72ce732f.jpg","p":"باز کردن فواید روزه متناوب برای","span3":"مدیریت وزن و مدیریت قد و مدیریت وزن سلامت و مدیریت وزن سلامت و وزن سلامت"},
+        {"imgsrc6":"./img/89c3bd8b85b3920c8b33a16941960749.jpg","p":" تاثیر مصرف شکر بر سلامتی شما","span3":"پرده برداری از خطرات پنهان  خطرات پنهان افشای خطرات پنهان افشای خطرات پنهان افشای خطرات "}
+        
+
+    ],
+    "food4":[
+        {"imgsrc7":"./img/30fdbc8766d8fed13a87e9a6e67b56c5.jpg","h2":"باز کردن فواید روزه متناوب برای","p2":"مدیریت وزن و مدیریت قد و مدیریت وزن سلامت و مدیریت وزن سلامت و وزن سلامت"},
+        {"imgsrc7":"./img/5f31245f481a096b002ab0dbbbf12912.jpg","h2":"تاثیر مصرف شکر بر سلامتی شما","p2":"پرده برداری از خطرات پنهان  خطرات پنهان افشای خطرات پنهان افشای خطرات پنهان افشای خطرات پنهان"}
+
+    ]
+   
+}
